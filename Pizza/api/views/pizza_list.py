@@ -6,7 +6,7 @@ from rest_framework.filters import SearchFilter
 
 """
  This veiw will be used to list all pizza  and if you want to search according to pizza size,pizza type, pizza toppings this will also give the exact result
- """
+"""
 class PizzaList(ListAPIView):
     queryset = Pizza.objects.all()   
     serializer_class = PizzaSerializerList
