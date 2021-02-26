@@ -15,7 +15,7 @@
 
 ---
 ### Step To Run The Project
-1. Make sure to create a mongoDB database and connect your database
+1. Make sure to create a mongoDB database name must be **MyPizzaDB** and connect your database
 
 3. Do the migrations so that collections will be created,Please Run This Command ..
    * ` python manage.py runserver `
